@@ -2,8 +2,8 @@ site_name: Flow Bot
 site_url: https://your-flow-bot-site.com/
 site_description: Comprehensive guide for designing WhatsApp workflows with Flow Bot.
 site_author: Flow Bot
-repo_url: https://github.com/your-repo/flow-bot
-repo_name: flow-bot
+repo_url: https://github.com/saliou33/flow-bot
+repo_name: saliou33/flow-bot
 copyright: Copyright © 2025 Flow Bot Team
 
 theme:
