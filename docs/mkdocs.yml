@@ -1,0 +1,70 @@
+site_name: Flow Bot
+site_url: https://your-flow-bot-site.com/
+site_description: Comprehensive guide for designing WhatsApp workflows with Flow Bot.
+site_author: Flow Bot
+repo_url: https://github.com/your-repo/flow-bot
+repo_name: flow-bot
+copyright: Copyright © 2025 Flow Bot Team
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Fira Code
+  icon:
+    logo: material/robot
+  features:
+    - navigation.tabs
+    - toc.integrate
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-repo/flow-bot
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/your-handle
+  alternate:
+    - name: "English"
+      link: ""
+      lang: en
+    - name: "Français"
+      link: ""
+      lang: fr
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        en: "English"
+        fr: "Français"
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+
+extra_css:
+  - styles/extra.css
+
+docs_dir: source
